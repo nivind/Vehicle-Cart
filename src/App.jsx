@@ -7,10 +7,12 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import About from "./pages/About";
 import Gallary from "./pages/Gallary";
 import Contact from "./pages/Contact";
+import MainNavbar from "./components/MainNavbar";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <MainNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
