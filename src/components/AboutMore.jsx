@@ -4,7 +4,10 @@ import arun from "../assets/arun.png";
 const AboutMore = () => {
   return (
     <>
-      <div className="flex justify-between w-full mt-3">
+      <div
+        className="flex justify-between w-full mt-3"
+        style={{ minHeight: "calc(100vh - 119px)" }}
+      >
         <div className="flex justify-start m-2">
           I'm Arunkumar Raja, working in the Information Technology and Services
           Industry. Skilled in Computer Networks, Backup & Recovery Systems,

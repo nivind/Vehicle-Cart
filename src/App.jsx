@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Gallary from "./pages/Gallary";
 import Contact from "./pages/Contact";
 import MainNavbar from "./components/MainNavbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         />
         <Route path="/*" element={<Error />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
